@@ -213,6 +213,8 @@
     thirst = (thirsty / quenched) * 100;
     wellbeing = (hurt / healed) * 100;
     
+    // Testing git control.
+    
     draw_set_alpha(0.05);
     draw_set_colour(c_white);
     draw_rectangle(xx, room_height - 10, room_width - 25, room_height - 50, false);

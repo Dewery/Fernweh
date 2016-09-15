@@ -3,7 +3,28 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <datafiles number="1" name="datafiles">
+    <datafile>
+      <name>readme.html</name>
+      <exists>-1</exists>
+      <size>19908</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>readme.html</filename>
+    </datafile>
+  </datafiles>
+  <NewExtensions>
+    <extension index="0">extensions\Developer Console</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\dot_i_thirst</sprite>
@@ -16,9 +37,33 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_load.gml</script>
+    <scripts name="Console">
+      <script>scripts\console_create.gml</script>
+      <script>scripts\console_settings.gml</script>
+      <script>scripts\console_draw.gml</script>
+      <script>scripts\console_toggle.gml</script>
+      <script>scripts\console_submit.gml</script>
+      <script>scripts\console_cmd.gml</script>
+      <script>scripts\console_get_cmd.gml</script>
+      <script>scripts\console_value.gml</script>
+      <script>scripts\console_text_open.gml</script>
+      <script>scripts\console_add.gml</script>
+      <script>scripts\console_destroy.gml</script>
+      <script>scripts\console_preset.gml</script>
+      <script>scripts\console_value_count.gml</script>
+    </scripts>
+    <script>scripts\animation_fadeOut.gml</script>
+    <script>scripts\animation_slideUp.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_arial</font>
+  </fonts>
   <objects name="objects">
     <object>objects\being_icon_thirst</object>
+    <object>objects\obj_console</object>
+    <object>objects\obj_demo</object>
+    <object>objects\obj_text</object>
+    <object>objects\obj_textbox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\region_main</room>

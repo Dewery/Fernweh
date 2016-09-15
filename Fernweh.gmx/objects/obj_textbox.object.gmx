@@ -147,6 +147,11 @@ if (mouse_check_button_pressed(mb_left)) {
 }
 
 if (selected == true &amp;&amp; keyboard_check_pressed(vk_enter)) {
+    if (line1 != "") {
+        line1 = "";
+        textHeight = room_height - 30;
+        textAlpha = 0;
+    }
     line1 = txt;
     txt = "";
     keyboard_string = txt;

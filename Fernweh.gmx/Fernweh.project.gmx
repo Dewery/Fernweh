@@ -37,32 +37,17 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_load.gml</script>
-    <scripts name="Console">
-      <script>scripts\console_create.gml</script>
-      <script>scripts\console_settings.gml</script>
-      <script>scripts\console_draw.gml</script>
-      <script>scripts\console_toggle.gml</script>
-      <script>scripts\console_submit.gml</script>
-      <script>scripts\console_cmd.gml</script>
-      <script>scripts\console_get_cmd.gml</script>
-      <script>scripts\console_value.gml</script>
-      <script>scripts\console_text_open.gml</script>
-      <script>scripts\console_add.gml</script>
-      <script>scripts\console_destroy.gml</script>
-      <script>scripts\console_preset.gml</script>
-      <script>scripts\console_value_count.gml</script>
-    </scripts>
     <script>scripts\animation_fadeOut.gml</script>
     <script>scripts\animation_slideUp.gml</script>
+    <script>scripts\chatCommand.gml</script>
+    <script>scripts\scavengeItem.gml</script>
+    <script>scripts\clearChat.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_arial</font>
   </fonts>
   <objects name="objects">
     <object>objects\being_icon_thirst</object>
-    <object>objects\obj_console</object>
-    <object>objects\obj_demo</object>
-    <object>objects\obj_text</object>
     <object>objects\obj_textbox</object>
   </objects>
   <rooms name="rooms">

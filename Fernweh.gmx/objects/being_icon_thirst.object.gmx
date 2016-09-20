@@ -100,13 +100,8 @@
             <string>    // This is called once every frame    
     if (is_thirsty) {
         thirsty -= 1;
-        count_true += 1;
-        count_overall += 1;
         
         is_thirsty = false;
-    } else {
-        count_false += 1;
-        count_overall += 1;
     }
     
     if (thirsty &lt; 0) {
@@ -117,10 +112,6 @@
         hungry -= 1;
         
         is_hungry = false;
-    }
-    
-    if (thirsty &lt; 0) {
-        thirsty = quenched;
     }
     
     // Clock

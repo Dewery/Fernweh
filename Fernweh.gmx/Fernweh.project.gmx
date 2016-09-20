@@ -25,7 +25,9 @@
   <NewExtensions>
     <extension index="0">extensions\Developer Console</extension>
   </NewExtensions>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\dot_i_thirst</sprite>
     <sprite>sprites\dot_i_hunger</sprite>
@@ -42,6 +44,7 @@
     <script>scripts\chatCommand.gml</script>
     <script>scripts\scavengeItem.gml</script>
     <script>scripts\clearChat.gml</script>
+    <script>scripts\output_message.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_arial</font>
@@ -49,6 +52,7 @@
   <objects name="objects">
     <object>objects\being_icon_thirst</object>
     <object>objects\obj_textbox</object>
+    <object>objects\source_chat_system</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\region_main</room>
